@@ -1,0 +1,57 @@
+{
+  "cover_page": {
+    "form_type": "10-K",
+    "fiscal_year_ended": "2023",
+    "commission_file_number": null,
+    "registrant_name": "Example Corp.",
+    "state_of_incorporation": null,
+    "irs_employer_identification_number": null,
+    "address_of_principal_executive_offices": null,
+    "registrant_telephone_number": null,
+    "securities": [
+      {
+        "title_of_each_class": "Common Stock, $1.00 par value per share",
+        "trading_symbols": "EXP",
+        "name_of_each_exchange": "New York Stock Exchange"
+      }
+    ]
+  },
+  "part_i": {
+    "item_1_business": {
+      "company_overview": {
+        "company_description": "Example Corp. is a leading provider of innovative technology solutions.",
+        "key_priorities": "Expanding into new markets, Investing in R&D for product development"
+      },
+      "products": {
+        "product_overview": "Our portfolio includes cloud services, cybersecurity software, and IoT devices.",
+        "analog_and_mixed_signal": null
+      },
+      "markets": {
+        "industrial_percent_2024": "35.7%",
+        "automotive_percent_2024": "18.9%",
+        "communications_percent_2024": null,
+        "consumer_percent_2024": null
+      }
+    }
+  },
+  "part_ii": {
+    "item_8_financial_statements": {
+      "consolidated_statements_of_income": {
+        "revenue": "$500 million",
+        "net_income": "$30 million",
+        "basic_earnings_per_share": null,
+        "diluted_earnings_per_share": null
+      },
+      "consolidated_balance_sheets": {
+        "total_assets": "$2 billion",
+        "total_current_assets": null,
+        "total_shareholders_equity": null
+      },
+      "consolidated_statements_cash_flows": {
+        "net_cash_provided_by_operating_activities": "$50 million",
+        "net_cash_used_for_investing_activities": null,
+        "net_cash_used_for_financing_activities": null
+      }
+    }
+  }
+}

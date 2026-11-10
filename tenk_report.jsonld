@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "ex": "http://example.org/tenk/",
+    "cover_page": "ex:cover_page",
+    "form_type": "ex:form_type",
+    "fiscal_year_ended": "ex:fiscal_year_ended",
+    "commission_file_number": "ex:commission_file_number",
+    "registrant_name": "ex:registrant_name",
+    "state_of_incorporation": "ex:state_of_incorporation",
+    "irs_employer_identification_number": "ex:irs_employer_identification_number",
+    "address_of_principal_executive_offices": "ex:address_of_principal_executive_offices",
+    "registrant_telephone_number": "ex:registrant_telephone_number",
+    "securities": "ex:securities",
+    "title_of_each_class": "ex:title_of_each_class",
+    "trading_symbols": "ex:trading_symbols",
+    "name_of_each_exchange": "ex:name_of_each_exchange",
+    "part_i": "ex:part_i",
+    "item_1_business": "ex:item_1_business",
+    "company_overview": "ex:company_overview",
+    "company_description": "ex:company_description",
+    "key_priorities": "ex:key_priorities",
+    "products": "ex:products",
+    "product_overview": "ex:product_overview",
+    "analog_and_mixed_signal": "ex:analog_and_mixed_signal",
+    "markets": "ex:markets",
+    "industrial_percent_2024": "ex:industrial_percent_2024",
+    "automotive_percent_2024": "ex:automotive_percent_2024",
+    "communications_percent_2024": "ex:communications_percent_2024",
+    "consumer_percent_2024": "ex:consumer_percent_2024",
+    "part_ii": "ex:part_ii",
+    "item_8_financial_statements": "ex:item_8_financial_statements",
+    "consolidated_statements_of_income": "ex:consolidated_statements_of_income",
+    "revenue": "ex:revenue",
+    "net_income": "ex:net_income",
+    "basic_earnings_per_share": "ex:basic_earnings_per_share",
+    "diluted_earnings_per_share": "ex:diluted_earnings_per_share",
+    "consolidated_balance_sheets": "ex:consolidated_balance_sheets",
+    "total_assets": "ex:total_assets",
+    "total_current_assets": "ex:total_current_assets",
+    "total_shareholders_equity": "ex:total_shareholders_equity",
+    "consolidated_statements_cash_flows": "ex:consolidated_statements_cash_flows",
+    "net_cash_provided_by_operating_activities": "ex:net_cash_provided_by_operating_activities",
+    "net_cash_used_for_investing_activities": "ex:net_cash_used_for_investing_activities",
+    "net_cash_used_for_financing_activities": "ex:net_cash_used_for_financing_activities"
+  },
+  "@id": "ex:report1",
+  "cover_page": {
+    "@id": "ex:cover1",
+    "form_type": "10-K",
+    "fiscal_year_ended": "December 31, 2023",
+    "commission_file_number": null,
+    "registrant_name": "ABC Corporation",
+    "state_of_incorporation": null,
+    "irs_employer_identification_number": null,
+    "address_of_principal_executive_offices": null,
+    "registrant_telephone_number": null,
+    "securities": [
+      {
+        "@id": "ex:security1",
+        "title_of_each_class": "Common Stock",
+        "trading_symbols": "ABC",
+        "name_of_each_exchange": "NYSE"
+      }
+    ]
+  },
+  "part_i": {
+    "@id": "ex:part_i1",
+    "item_1_business": {
+      "@id": "ex:item1_business1",
+      "company_overview": {
+        "@id": "ex:company_overview1",
+        "company_description": "ABC Corporation is a leading manufacturer of automotive and industrial components.",
+        "key_priorities": "Innovation, Customer Satisfaction, Operational Excellence"
+      },
+      "products": {
+        "@id": "ex:products1",
+        "product_overview": "The company produces a wide range of products including brakes, suspensions, and engine components.",
+        "analog_and_mixed_signal": null
+      },
+      "markets": {
+        "@id": "ex:markets1",
+        "industrial_percent_2024": "40%",
+        "automotive_percent_2024": "60%",
+        "communications_percent_2024": null,
+        "consumer_percent_2024": null
+      }
+    }
+  },
+  "part_ii": {
+    "@id": "ex:part_ii1",
+    "item_8_financial_statements": {
+      "@id": "ex:item8_fin1",
+      "consolidated_statements_of_income": {
+        "@id": "ex:income1",
+        "revenue": "$10,000,000,000",
+        "net_income": "$800,000,000",
+        "basic_earnings_per_share": null,
+        "diluted_earnings_per_share": null
+      },
+      "consolidated_balance_sheets": {
+        "@id": "ex:balance1",
+        "total_assets": "$15,000,000,000",
+        "total_current_assets": null,
+        "total_shareholders_equity": null
+      },
+      "consolidated_statements_cash_flows": {
+        "@id": "ex:cashflows1",
+        "net_cash_provided_by_operating_activities": "$1,200,000,000",
+        "net_cash_used_for_investing_activities": null,
+        "net_cash_used_for_financing_activities": null
+      }
+    }
+  }
+}

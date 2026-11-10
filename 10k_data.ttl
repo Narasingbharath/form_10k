@@ -1,0 +1,36 @@
+@prefix company: <http://example.org/company#> .
+@prefix financial: <http://example.org/financial#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/company#Example_Corp.> a company:PublicCompany ;
+    rdfs:label "Example Corp." ;
+    company:description "Example Corp. is a leading provider of innovative technology solutions." ;
+    company:hasSecurityListing <http://example.org/company#Example_Corp./security/EXP> ;
+    company:offersProducts <http://example.org/company#Example_Corp./product-line> ;
+    company:servesMarket <http://example.org/company#Example_Corp./market/automotive>,
+        <http://example.org/company#Example_Corp./market/industrial> ;
+    financial:hasFinancialReport <http://example.org/company#Example_Corp./financial-report/2024> .
+
+<http://example.org/company#Example_Corp./financial-report/2024> a financial:FinancialReport ;
+    financial:fiscalYear "2024" ;
+    financial:netIncome "$30 million" ;
+    financial:operatingCashFlow "$50 million" ;
+    financial:revenue "$500 million" ;
+    financial:totalAssets "$2 billion" .
+
+<http://example.org/company#Example_Corp./market/automotive> a company:MarketSegment ;
+    company:marketName "automotive" ;
+    company:revenuePercentage "18.9"^^xsd:float .
+
+<http://example.org/company#Example_Corp./market/industrial> a company:MarketSegment ;
+    company:marketName "industrial" ;
+    company:revenuePercentage "35.7"^^xsd:float .
+
+<http://example.org/company#Example_Corp./product-line> a company:ProductLine ;
+    rdfs:comment "Our portfolio includes cloud services, cybersecurity software, and IoT devices." .
+
+<http://example.org/company#Example_Corp./security/EXP> a financial:Security ;
+    financial:listedOn "New York Stock Exchange" ;
+    financial:ticker "EXP" .
+
